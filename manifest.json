@@ -1,0 +1,9 @@
+{
+  "name": "OverDrive Assistant",
+  "description": "Finds books on multiple OverDrive library sites",
+  "manifest_version": 2,
+  "version": "0.3",
+  "permissions": ["contextMenus","tabs"],
+  "background": { "page": "background.html" },
+  "content_security_policy": "default-src 'self'"
+}
