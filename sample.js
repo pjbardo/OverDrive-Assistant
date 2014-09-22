@@ -1,9 +1,6 @@
 function genericOnClick(info, tab) {
 	var re = new RegExp("[=/{]([a-fA-F0-9]+-[a-fA-F0-9]+-[a-fA-F0-9]+-[a-fA-F0-9]+-[a-fA-F0-9]+)(&|}|-|$)");
-	//var re = new RegExp("/([^-/]+-[^-]+-[^-]+-[^-]+-[^-]+)-");
 	var m = re.exec(info.linkUrl);
-	//var tab;
-	//var first;
 	//alert(m[1]);
 	if (m != null) {
 		window.open("http://overdrive.slcl.org/900BD9C9-CE92-4A04-89E0-B00DCCE2387B/10/380/en/ContentDetails.htm?ID=" + m[1]);
