@@ -2,7 +2,7 @@ function genericOnClick(info, tab) {
 	var re = new RegExp("[=/{]([a-fA-F0-9]+-[a-fA-F0-9]+-[a-fA-F0-9]+-[a-fA-F0-9]+-[a-fA-F0-9]+)(&|}|-|$)");
 	var m = re.exec(info.linkUrl);
 	//alert(m[1]);
-	if (m != null) {
+	if (m !== null) {
 		window.open("http://overdrive.slcl.org/900BD9C9-CE92-4A04-89E0-B00DCCE2387B/10/380/en/ContentDetails.htm?ID=" + m[1]);
 		window.open("http://overdrive.mlcstl.org/DC892527-E8EA-4D5C-A5EC-E319E1143B0A/10/504/en/ContentDetails.htm?ID=" + m[1]);
 		window.open("http://overdrive.youranswerplace.org/798AFB58-96F8-4572-884A-F62B72057851/10/494/en/ContentDetails.htm?ID=" + m[1]);
