@@ -3,7 +3,7 @@
   "description": "Finds books on multiple OverDrive library sites",
   "manifest_version": 2,
   "version": "0.4.0",
-  "version_name": "0.4.0-qa-0",
+  "version_name": "0.4.0-prod",
   "permissions": ["activeTab","contextMenus","tabs","declarativeContent", "http://*.overdrive.com/*"],
   "page_action" :	  
     {
